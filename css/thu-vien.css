@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Darker+Grotesque&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Darker+Grotesque&family=Parisienne&family=Poppins:wght@100;200&family=Special+Elite&display=swap');
+body
+{
+	font-family: 'Darker Grotesque', sans-serif;
+	font-size:18px ;
+	color: #4E4E4E
+}
+h1,h2{font-family:'Dancing Script', cursive;
+color: #FBDB0A}
+*{box-sizing: border-box}
+.row{ display: flex; flex-wrap: wrap;
+/*	align-items: center;*/
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+  padding: 15px;
+  border: 1px;
+}
+.container-fluid{ width: 100%}
+.container{ width: 80%; margin: auto}
+.text-center{ text-align: center}
+.text-right{ text-align: right}
+.text-primary{color: #FBDB0A}
+.bg-primary{ background-color: #FBDB0A}
+.text-secondary{color: #FBDB0A}
+.bg-secondary{ background-color: #FBDB0A}
+.text-dark{ color: #4E4E4E}
+.text-light {color: #F2F0EB}
+.btn-primary{
+	border: 0;
+	border-radius: 10px;
+	padding: 15px;
+	margin: 0 10px 10px 0px;
+}
+.btn-light {
+	border: 0;
+	border-radius: 10px;
+	padding: 15px 30px;
+	color: #333;
+	cursor: pointer;
+	font-weight: 600;
+}
+.btn-light:hover {
+	color: #FBDB0A;
+}
+
+.btn-primary:hover{
+	background-color: #FBDB0A;
+}
+.border-primary {
+	border: 1px solid #FBDB0A;
+	
+	
+}
+
+
+/*style cho che do flex chieu ngang*/
+.d-flex{ display: flex}
+.justify-center{ justify-content: center}
+.justify-between{ justify-content: space-between}
+.justify-around{ justify-content: space-around}
+.justify-end{ justify-content: flex-end}
+.alight-items-center{align-items: center}
+.alight-items-end{align-items: flex-end}
+.alight-items-start{align-items: flex-start}
+.flex-row-reverse {flex-direction: row-reverse}
+.flex-col-reverse {flex-direction: column-reverse}
+.py-50{ padding-bottom: 50px; padding-top: 50px}
+.img-100 {
+	width: 100%;
+}
+.mtb-20 {margin-top: 20px;margin-bottom: 20px};
+
+
+
+
+
+
+
+
+
+
